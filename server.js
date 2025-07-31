@@ -1,27 +1,4 @@
-/*
-TUTORIAL 03 DEMO CODE:
 
-Here we are prepared to receive a POST message from the client,
-and acknowledge that, with a very limited response back to the client
-
-Use browser to view pages at http://localhost:3000/example1.html
-
-When the blue cube is moved with the arrow keys, a POST message will be
-sent to the server when the arrow key is released. The POST message will
-contain a data string which is the location of the blue cube when the
-arrow key was released. The server sends back a JSON string which the client should use
-to put down a "waypoint" for where the arrow key was released
-
-Also if the client types in the app text field and presses the "Submit Request" button
-a JSON object containing the text field text will be send to this
-server in a POST message.
-
-Notice in this code we attach an event listener to the request object
-to receive data that might come in in chunks. When the request end event
-is posted we look and see if it is a POST message and if so extract the
-data and process it.
-
-*/
 
 //Cntl+C to stop server (in command line terminal)
 
